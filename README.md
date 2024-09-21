@@ -1,4 +1,6 @@
-# Rahhhhh
-Terrie is a script for procedurally generated terrain using 2 dimensional Perlin noise. However, this addon has a few problems to take into account when using. Because of this, I don't recommend copying the code of this script as there are probably better ways to do it. The problems that this script has is that it's slow, a bit laggy, and requires a decent amount of memory to run.
+# Download
+Addon can be downloaded in the builds folder.
 
-With that being said, I recommend using a strong device when using this addon.
+# Miscellaneous Info
+- You can copy and use the code in this addon on your own project without creditng me. Yes, even the whole script. Just be sure to change some things so it's not entirely the same.
+- You can't upload and claim this addon as your own though.
