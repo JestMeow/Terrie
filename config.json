@@ -1,0 +1,37 @@
+{
+	"type": "minecraftBedrock",
+	"name": "Terrie",
+	"namespace": "bridge",
+	"authors": [
+		"JestMeow"
+	],
+	"targetVersion": "1.21.20",
+	"description": "pack.description",
+	"experimentalGameplay": {},
+	"bdsProject": false,
+	"packs": {
+		"behaviorPack": "./BP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"generatorScripts",
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "Terrie"
+				}
+			]
+		]
+	}
+}
